@@ -56,17 +56,18 @@ pfSense (192.168.10.1 / 192.168.20.1)
 | HQ → Branch SSH | ✅ Allowed |
 
 ## 📸 Screenshots
-[Add pfSense rules, ping results, SSH logs]
 
 ##  Credentials (redacted)
 - pfSense: `admin` / `[REDACTED]`
 - Ubuntu-HQ: `ubuntu-hq` / `[REDACTED]`
 - Ubuntu-Branch: `branch` / `[REDACTED]`
 
-## 📄 Configuration Files
-- `ubuntu-hq-netplan.yaml`
-- `ubuntu-branch-netplan.yaml`
-- `pfSense-rules.txt`
+## Configuration Files
+
+- `configs/ubuntu-hq-netplan.yaml`
+- `configs/ubuntu-branch-netplan.yaml`
+
+These are the static IP configurations for both Ubuntu VMs.`
 
 ##  Next Steps
 - Phase 4: Wazuh SIEM (monitoring and detection)
